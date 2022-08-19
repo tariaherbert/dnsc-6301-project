@@ -65,3 +65,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
 
+### Ethical Considerations
+* **Potential negative impacts of using your model:
+* **Potential uncertainties relating to the impacts of using your model:
+* **Any unexpected or results:
