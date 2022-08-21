@@ -6,7 +6,7 @@
 * **Model date**: August, 2022
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: 
+* **Model implementation code**: missing
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
@@ -50,15 +50,10 @@
 * **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
-* **Version of the modeling software**: 0.22.2.post1
-* **Hyperparameters or other settings of your model**: 
+* **Version of the modeling software**: missing
+* **Hyperparameters or other settings of your model**: missing
 ```
-DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
-                       max_depth=6, max_features=None, max_leaf_nodes=None,
-                       min_impurity_decrease=0.0, min_impurity_split=None,
-                       min_samples_leaf=1, min_samples_split=2,
-                       min_weight_fraction_leaf=0.0, presort='deprecated',
-                       random_state=12345, splitter='best')`
+DecisionTreeClassifier(max_depth=6, random_state=12345)
 ```
 ### Quantitative Analysis
 
