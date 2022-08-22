@@ -50,8 +50,10 @@
 * **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
-* **Version of the modeling software**: missing
-* **Hyperparameters or other settings of your model**: missing
+* **Version of the modeling software**: 
+  * Python version: 3.7.13
+  * Sklearn version: 1.0.2
+* **Hyperparameters or other settings of your model**:
 ```
 DecisionTreeClassifier(max_depth=6, random_state=12345)
 ```
