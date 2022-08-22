@@ -60,9 +60,9 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 ### Quantitative Analysis
 
 #### Correlation Heatmap
-![Correlation Heatmap](download.png)
+![Correlation Heatmap](correlation heatmap.png)
 #### Iteration Plot
-![Iteration Plot]
+![Iteration Plots](iteration plot 1.png)(iteration plot 1.png)
 
 ### Ethical Considerations
 * **Potential negative impacts of using your model**:
