@@ -60,7 +60,7 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 ### Quantitative Analysis
 
 #### Correlation Heatmap
-![Correlation Heatmap](correlation heatmap.png)
+![Correlation Heatmap](<img width="624" alt="correlation heatmap" src="https://user-images.githubusercontent.com/111463984/186020646-5fcb3d7e-65af-491b-a0e5-a86f7506ad08.png">)
 #### Iteration Plot
 ![Iteration Plots](iteration plot 1.png)(iteration plot 1.png)
 
