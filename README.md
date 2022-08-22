@@ -61,8 +61,7 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 
 #### Correlation Heatmap
 ![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
-#### Iteration Plots
-![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot%201.png)
+#### Iteration Plot
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot%202.png)
 
 ### Ethical Considerations
