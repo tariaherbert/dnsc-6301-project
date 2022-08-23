@@ -59,6 +59,16 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 ```
 ### Quantitative Analysis
 
+* Area Under the Curve (AUC):
+
+| Training | Validation | Test |
+| -------- | ---------- | ---- |
+| 0.783722 | 0.749610 | 0.7438 |
+
+* Adverse Impact Ratio (AIR):
+
+
+
 #### Correlation Heatmap
 ![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
 #### Iteration Plot
