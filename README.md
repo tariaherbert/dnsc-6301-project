@@ -81,5 +81,6 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 
 ### Ethical Considerations
 * **Potential negative impacts of using your model**:
+  *
 * **Potential uncertainties relating to the impacts of using your model**:
 * **Any unexpected or results**:
