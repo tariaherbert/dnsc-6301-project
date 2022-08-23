@@ -67,7 +67,12 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 
 * Adverse Impact Ratio (AIR):
 
-
+| Protective Groups | AIR |
+| ----------------- | --- |
+| Hispanic-to-White | 0.83 |
+| Black-to-White | 0.85 |
+| Asian-to-White | 1.00 |
+| Female-to-Male | 1.02 |
 
 #### Correlation Heatmap
 ![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
