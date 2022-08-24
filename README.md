@@ -76,8 +76,13 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 
 #### Correlation Heatmap
 ![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
+* **The correlation heatmap demonstrates the strength of relationships between variables. This heatmap displays a strong negative correlation between race and delinquency. This implies that customers of certain race groups may encounter less positive outcomes compared to other customers.**
+
 #### Iteration Plot
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot.png)
 
 ### Ethical Considerations
-* **The final model is at depth 6 because there is a balance between the area under the curve (AUC) and adverse impact ratio (AIR). This model has good fairness and performance. This model violates Title VI of the Civil Rights Act of 1964, which prohibits discrimination against race, color, and national origin. Since the model contains demographic information to decide whether a customer’s next payment is delinquent. This is disparate impact because the model will disproportionately impact protected groups. The final model has uncertainties although the outcome has improved because the adverse impact ratio (AIR) is barely above the accepted threshold of 0.80 for the hispanics and blacks. Also, the model associates numbers to the different protected groups, which unintentionally causes the model to rank and order the different type of customers within the protected groups.**
+* **Potential negative impacts of using this model:**
+    *The final model is at depth 6 because there is a balance between the area under  the curve (AUC) and adverse impact ratio (AIR). This model has good fairness and performance. This model violates Title VI of the Civil Rights Act of 1964, which prohibits discrimination against race, color, and national origin. Since the model contains demographic information to decide whether a customer’s next payment is delinquent. This is disparate impact because the model will disproportionately impact protected groups. The final model has uncertainties although the outcome has improved because the adverse impact ratio (AIR) is barely above the accepted threshold of 0.80 for the hispanics and blacks. Also, the model associates numbers to the different protected groups, which unintentionally causes the model to rank and order the different type of customers within the protected groups.
+* **Potential uncertainties relating to the impacts of using this model:
+   *
