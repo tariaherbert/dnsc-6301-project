@@ -80,7 +80,7 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 
 #### Iteration Plot
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot.png)
-* **The iteration plot demonstrates the relationship between the area under the curve (AUC) and tree depth. The final model lowest adverse impact ratio (AIR) is portrayed as the protected group of hispanic-to-white, which is represented as the green line in the plot. This plot shows that at tree depth 6, there is good validation AUC and fairness AIR is above the 0.80 threshold. The plot shows that performance and fairness maxes out at tree depth 7. 
+* **The iteration plot demonstrates the relationship between the area under the curve (AUC) and tree depth. The final model lowest adverse impact ratio (AIR) is portrayed as the protected group of hispanic-to-white, which is represented as the green line in the plot. This plot shows that at tree depth 6, there is good validation AUC and fairness AIR is above the 0.80 threshold. The plot shows that performance and fairness maxes out at tree depth 7.**
 
 ### Ethical Considerations
 * **Potential negative impacts of using this model**:
