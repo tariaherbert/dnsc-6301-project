@@ -82,7 +82,7 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot.png)
 
 ### Ethical Considerations
-* **Potential negative impacts of using this model:**
+* **Potential negative impacts of using this model**:
     *The final model is at depth 6 because there is a balance between the area under  the curve (AUC) and adverse impact ratio (AIR). This model has good fairness and performance. This model violates Title VI of the Civil Rights Act of 1964, which prohibits discrimination against race, color, and national origin. Since the model contains demographic information to decide whether a customer’s next payment is delinquent. This is disparate impact because the model will disproportionately impact protected groups. The final model has uncertainties although the outcome has improved because the adverse impact ratio (AIR) is barely above the accepted threshold of 0.80 for the hispanics and blacks. Also, the model associates numbers to the different protected groups, which unintentionally causes the model to rank and order the different type of customers within the protected groups.
-* **Potential uncertainties relating to the impacts of using this model:
+* **Potential uncertainties relating to the impacts of using this model**:
    *
