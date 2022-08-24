@@ -59,13 +59,13 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 ```
 ### Quantitative Analysis
 
-* Area Under the Curve (AUC):
+#### Area Under the Curve (AUC):
 
 | Metric | Training | Validation | Test |
 | ------ | -------- | ---------- | ---- |
 | AUC | 0.783722 | 0.749610 | 0.7438 |
 
-* Adverse Impact Ratio (AIR):
+#### Adverse Impact Ratio (AIR):
 
 | Protective Groups | AIR |
 | ----------------- | --- |
