@@ -78,6 +78,10 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 ![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
 * **The correlation heatmap demonstrates the strength of relationships between variables. This heatmap displays a strong negative correlation between race and delinquency. This implies that customers of certain race groups may encounter less positive outcomes compared to other customers.**
 
+#### Variable Importance
+![Variable Importance](https://github.com/tariaherbert/dnsc-6301-project/blob/main/variable%20importance.png)
+* **
+
 #### Iteration Plot
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot.png)
 * **The iteration plot demonstrates the relationship between the area under the curve (AUC) and tree depth. The final model lowest adverse impact ratio (AIR) is portrayed as the protected group of hispanic-to-white, which is represented as the green line in the plot. This plot shows that at tree depth 6, there is good validation AUC and fairness AIR is above the 0.80 threshold. The plot shows that performance and fairness maxes out at tree depth 7.**
