@@ -74,6 +74,12 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 | Asian-to-White | 1.00 |
 | Female-to-Male | 1.02 |
 
+#### Accuracy
+
+| Cutoff | Accuracy |
+| ------ | -------- |
+| 0.18 | 0.7384 |
+
 #### Correlation Heatmap
 ![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
 * **The correlation heatmap demonstrates the strength of relationships between variables. This heatmap displays a strong negative correlation between race and delinquency. This implies that customers of certain race groups may encounter less positive outcomes compared to other customers.**
