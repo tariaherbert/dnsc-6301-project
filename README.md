@@ -80,7 +80,7 @@ DecisionTreeClassifier(max_depth=6, random_state=12345)
 
 #### Variable Importance
 ![Variable Importance](https://github.com/tariaherbert/dnsc-6301-project/blob/main/variable%20importance.png)
-* **
+* **The variable importance plot displays how often a model uses the variables to make accurate predictions. This machine learning model uses the variables "pay_0" and "pay_2" the most to make accurate predictions about whether a customer’s next payment is delinquent.
 
 #### Iteration Plot
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot.png)
