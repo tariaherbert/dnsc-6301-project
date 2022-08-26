@@ -72,7 +72,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 #### Adverse Impact Ratio (AIR)
 
-| Protective Groups | AIR |
+| Protected Groups | AIR |
 | ----------------- | --- |
 | Hispanic-to-White | 0.83 |
 | Black-to-White | 0.85 |
@@ -95,12 +95,12 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 #### Iteration Plot
 ![Iteration Plot](https://github.com/tariaherbert/dnsc-6301-project/blob/main/iteration%20plot.png)
-* **The iteration plot demonstrates the relationship between the area under the curve (AUC) and tree depth. The final model lowest adverse impact ratio (AIR) is portrayed as the protected group of hispanic-to-white, which is represented as the green line in the plot. This plot shows that at tree depth 6, there is good validation AUC and fairness AIR is above the 0.80 threshold. The plot shows that performance and fairness maxes out at tree depth 7.**
+* **The iteration plot demonstrates the relationship between the area under the curve (AUC) and tree depth. The final model lowest adverse impact ratio (AIR) is portrayed as the protected group of hispanic-to-white, which is represented as the green line in the plot. This plot shows that at tree depth 6, there is good validation AUC and fairness AIR is above the 0.80 threshold. The performance maxes out at depth = 6 and the AIR maxes out at depth = 7.**
 
 ### Ethical Considerations
 * **Potential negative impacts of using this model**:
    * Math or Software Problems: The final model has an accuracy of 73.84%, which means there is a 26.16% chance that the model makes inaccurate decisions. This can become costly for the company. Also, the model associates numbers to the different protected groups, which unintentionally causes the model to rank and order the different type of customers within the protected groups.
-   * Real-World Risks: The final model is at depth 6 because there is a balance between the area under the curve (AUC) and adverse impact ratio (AIR). This model has good fairness and performance. This model violates Title VI of the Civil Rights Act of 1964, which prohibits discrimination against race, color, and national origin. Since the model contains demographic information to decide whether a customer’s next payment is delinquent. This represents disparate impact because the model will disproportionately impact protected groups because although the outcome has improved, the adverse impact ratio (AIR) is barely above the accepted threshold of 0.80 for the hispanics and blacks.
+   * Real-World Risks: The final model is at depth 6 because there is a balance between the area under the curve (AUC) and adverse impact ratio (AIR). This model has good fairness and performance. This model may violate Title VI of the Civil Rights Act of 1964, which prohibits discrimination against race, color, and national origin. Since the model contains demographic information to decide whether a customer’s next payment is delinquent. This exhibits disparate impact because the model will disproportionately impact protected groups because although the outcome has improved, the adverse impact ratio (AIR) is barely above the accepted threshold of 0.80 for the hispanics and blacks.
 * **Potential uncertainties relating to the impacts of using this model**:
    * Math or Software Problems: Although the model performs well today, it will need to be monitored into the future for its performance to ensure it is still performing well.
    * Real-World Risks: The model only tested for bias and did not consider privacy and security concerns. The model contains personal data that should be anonymized to protect the privacy of customers. Since this machine learning model contains sensitive data there should be security in place to prevent hackers and malicious software from gaining unauthorized access and altering the code for malicious intent.
