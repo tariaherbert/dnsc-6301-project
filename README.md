@@ -86,7 +86,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 | 0.18 | 0.7384 |
 
 #### Correlation Heatmap
-![Correlation Heatmap](correlation heatmap.png)
+![Correlation Heatmap](https://github.com/tariaherbert/dnsc-6301-project/blob/main/correlation%20heatmap.png)
 * **The correlation heatmap demonstrates the strength of relationships between variables. This heatmap displays a strong negative correlation between race and delinquency. This implies that customers of certain race groups may encounter less positive outcomes compared to other customers.**
 
 #### Variable Importance
