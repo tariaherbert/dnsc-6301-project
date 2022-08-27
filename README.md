@@ -6,7 +6,7 @@
 * **Model date**: August, 2022
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: missing
+* **Model implementation code**: [dnsc_6301_project.ipynb](https://github.com/tariaherbert/dnsc-6301-project/blob/main/dnsc_6301_project.ipynb)
 
 ### Intended Use
 * **Primary intended uses**: This model is an *example* probability of default classifier, with an *example* use case for determining eligibility for a credit line increase.
