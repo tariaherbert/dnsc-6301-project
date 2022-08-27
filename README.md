@@ -59,7 +59,7 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
                        max_depth=6, max_features=None, max_leaf_nodes=None,
                        min_impurity_decrease=0.0, min_samples_leaf=1, 
                        min_samples_split=2, min_weight_fraction_leaf=0.0,
-                       random_state=12345, splitter='best')`
+                       random_state=12345, splitter='best')
 ```
 
 ### Quantitative Analysis
